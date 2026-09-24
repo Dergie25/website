@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goal 11</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Times New Roman", serif;
+        }
+        .x-box {
+            width: 100%;
+            padding: 7px;
+            padding-bottom: 0px;
+        }
+        .card-rows {
+            display: flex;
+            width: 100%;
+            align-items: flex-start;
+        }
+        .cat-info {
+            width: 40%;
+            background-color: aquamarine;
+            padding-bottom: 20px;
+        }
+        .cat-info h1 {
+            font-size: 25px;
+            margin: 20px 0 18px 0;
+        }
+        .cat-info img {
+            object-fit: cover;
+            float: left;
+        }
+        .cat-info p {
+            font-size: 32px;
+            line-height: 1.25;
+
+            margin: 10px 0 0 0;
+        }
+        .cat-info::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .middle-space {
+            width: 30%;
+        }
+         .dog-info {
+            width: 40%;
+            background-color: orangered;
+            padding-bottom: 20px;
+            margin-bottom: 0;
+        }
+        .dog-info h1 {
+            font-size: 25px;
+            margin: 20px 0 18px 0;
+        }
+        .dog-info img {
+            width: 300px;
+            height: 204;
+            object-fit: cover;
+            float: left;
+        }
+        .dog-info p {
+            font-size: 32px;
+            line-height: 1.25;
+            margin: 10px 0 0 0;
+        }
+        .dog-info::after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        footer {
+            width: calc(100% - 14px);
+            height: 18px;
+            margin-left: 7px;
+            margin-top: 0;
+            background-color: blueviolet;
+            text-align: center;
+        }
+        footer h6 {
+            margin: 0;
+            font-size: 14px;
+            font-weight: normal;
+            line-height: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="x-box">
+        <div class="card-rows">
+            <div class="cat-info">
+                <h1>CatCSS</h1>
+                <img src="cat.jpeg" alt="cat in the box">
+                <p>
+                    Nap all day cat dog hate mouse eat string barf pillow
+                    no baths hate everything but kitty poochy. Sleep on
+                    keyboard toy mouse squeak roll over. Mesmerizing birds.
+                    Poop on grasses licks paws destroy couch intently sniff
+                    hand. The dog smells bad gnaw.
+                </p>
+            </div>
+            <div class="middle-space"></div>
+            <div class="dog-info">
+                <h1>DogCSS</h1>
+                <img src="dog.jpeg" alt="dog in the tray">
+                <p>
+                    Heckin good boys and girls long woofer big ol wow very
+                    biscit long woofer heck what a nice floof, long doggo
+                    noodle horse vvv very taste wow. Very taste wow many
+                    pats aqua doggo he made many woofs pupperino, puggo
+                    doing me a frighten.
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h6>Copyright. This is the footer</h6>
+    </footer>
+</body>
+
+</html>
